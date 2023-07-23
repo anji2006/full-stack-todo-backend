@@ -1,0 +1,112 @@
+.check {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.todos-constainer {
+  min-height: 50vh;
+  width: 500px;
+  list-style-type: none;
+  padding-left: 0;
+}
+.search-todo {
+  margin-right: 20px;
+  height: 100%;
+  font-size: 24px;
+}
+
+.todo-add-search {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.todo-add-search button {
+  height: 100%;
+  background-color: blue;
+  cursor: pointer;
+  color: #fff;
+}
+.todo-add-search button:hover {
+  box-shadow: 2px 4px 3px 1px #453a3a;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px 2px #c8bcbc;
+}
+.todo-item .content {
+  width: 80%;
+  padding: 5px 15px;
+}
+
+.todo-item .content h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 0px;
+}
+.todo-item .content p {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.item-1 {
+  border: 2px solid red;
+  border-width: 0 0 0 10px;
+}
+.item-2 {
+  border: 2px solid green;
+  border-width: 0 0 0 10px;
+}
+.item-3 {
+  border: 2px solid yellow;
+  border-width: 0 0 0 10px;
+}
+.item-4 {
+  border: 2px solid blue;
+  border-width: 0 0 0 10px;
+}
+.item-5 {
+  border: 2px solid gray;
+  border-width: 0 0 0 10px;
+}
+.item-6 {
+  border: 2px solid pink;
+  border-width: 0 0 0 10px;
+}
+.item-7 {
+  border: 2px solid orange;
+  border-width: 0 0 0 10px;
+}
+.item-8 {
+  border: 2px solid skyblue;
+  border-width: 0 0 0 10px;
+}
+.edit-btn {
+  color: blue;
+  font-size: 26px;
+  cursor: pointer;
+}
+.delete-btn {
+  color: red;
+  margin-left: 10px;
+  font-size: 26px;
+  cursor: pointer;
+}
+.btn-box {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}

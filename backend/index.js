@@ -1,11 +1,13 @@
 import express from "express";
 import { readFileSync, writeFileSync } from "fs";
 import { v4 as uuidv4 } from "uuid";
+import cors from 'cors'
 
 const dbPath = "./db.txt";
 
 const app = express();
-app.use(express.json());
+app.use(express.json()); // Middleware to parse req as JSON
+app.use(cors()) //allowing cross-origin 
 
 const port = 2006;
 app.listen(port, () => {
